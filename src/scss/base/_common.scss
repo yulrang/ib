@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+/* common */
+.u_skip,
+.blind {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    left: 0;
+}
+.hide {
+	display:none;
+}

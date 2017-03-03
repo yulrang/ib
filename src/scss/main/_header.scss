@@ -1,0 +1,107 @@
+/* header */
+
+.gnb {
+	height:50px;
+	background:#54636E;
+	.util {
+		float:left;
+		@include util(50px, #fff, 10px);
+	}
+	.search {
+		position:relative;
+		box-sizing:border-box;
+		float:right;
+		margin-top:9px;
+		margin-right:30px;
+		padding:6px 10px;
+		@include sprite($search-bg);
+		width:272px;
+		.btn_sch {
+			position:absolute;
+			right:10px;
+			@include sprite($search);
+		}
+		> input[type="text"] {
+			width:220px;
+		}
+	}
+}
+.hd {
+	height:70px;
+	background:#000;
+	.logo {
+		float:left;
+		> a {
+			display:block;
+			margin-top:5px;
+		}
+	}
+	.lnb {
+		float:right;
+		padding-right:210px;
+		> li {
+			position:relative;
+			float:left;
+			margin:0 30px;
+			&:hover .lnb_sub {
+				display:block;
+			}
+
+			> a {
+				display:block;
+				line-height:70px;
+				color:#fff;
+				font-size:14px;
+				font-weight:bold;
+				&:hover {
+					color:#f5c400;
+				}
+			}
+		}
+
+		.lnb_sub {
+			display:none;
+			position:absolute;
+			top:50px;
+			left:50%;
+			z-index:10;
+			padding-top:20px;
+			margin:0 auto;
+			text-align:center;
+			&.sub1 {
+				@include sprite($sub-navi);
+				margin-left:-($sub-navi-width / 2);
+			}
+			&.sub2 {
+				@include sprite($sub-navi2);
+				margin-left:-($sub-navi2-width / 2);
+			}
+			> li {
+				display:inline-block;
+				margin-left:6px;
+				&:first-child {
+					margin-left:0;
+				}
+				> a {
+					font-weight:bold;
+				}
+			}
+		}
+	}
+}
+
+.flag,
+.widget {
+	position:absolute;
+	right:-154px;
+	z-index:1;
+}
+
+.flag {
+	top:0;
+	@include sprite($quick);
+}
+.widget {
+	top:380px;
+	@include sprite($widget);
+}

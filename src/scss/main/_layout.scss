@@ -1,0 +1,31 @@
+html,body {
+	height:100%;
+	font-size:12px;
+	font-family:'Nanum Gothic', '굴림', Gulim, '돋움', Dotum, Arial;
+}
+
+.wrap {
+	min-width:1200px;
+	overflow:hidden;
+}
+.box {
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+	&:after {
+		@extend %clear;
+	}
+}
+
+
+.content {
+	padding-bottom:140px;
+}
+.section_ad {
+	padding:30px 0 0;
+}
+
+footer {
+	background:#333;
+	padding:40px 0 35px;
+}

@@ -1,0 +1,111 @@
+.visual {
+	height:478px;
+	overflow:hidden;
+	position:relative;
+
+	.l_visual {
+		width:10000px;
+		> li {
+			float:left;
+			> a {
+				display:block;
+				min-width:1200px;
+				height:478px;
+			}
+		}
+
+		@for $i from 1 through 2 {
+			.visual#{$i} {
+				height:478px;
+				background:url(../../images/banner/banner#{$i}.png) center 0;
+			}
+		}
+	}
+
+	.btn_prev,
+	.btn_next {
+		position:absolute;
+		top:206px;
+		z-index:2;
+	}
+	.btn_prev {
+		left:20px;
+		@include sprite($arrow-l);
+	}
+	.btn_next {
+		right:20px;
+		@include sprite($arrow-r);
+	}
+}
+
+.notice {
+	background:#ffc82e;
+
+	> .box {
+		position:relative;
+		height:60px;
+		overflow:hidden;
+	}
+
+	.notice_list {
+		position:absolute;
+		left:0;
+		right:0;
+		line-height:60px;
+		> li {
+			text-indent:10px;
+			font-size:14px;
+			font-weight:bold;
+			&:before {
+				content:'';
+				float:left;
+				margin-top:14px;
+				@include sprite($nt);
+			}
+
+			.date {
+				float:right;
+			}
+		}
+	}
+}
+
+
+.ad_banner {
+	.ad {
+		float:left;
+		margin-left:20px;
+		&:first-child {
+			margin-left:0;
+		}
+		> a {
+			display:block;
+		}
+	}
+}
+
+.section_content {
+	padding-top:60px;
+
+	&.s1 .ico { @include sprite($t-bul01);}
+	&.s2 .ico { @include sprite($t-bul02);}
+	&.s3 .ico { @include sprite($t-bul03);}
+	&.s4 .ico { @include sprite($t-bul04);}
+
+
+	.section_title {
+		margin-bottom:20px;
+		padding-bottom:5px;
+		font-size:32px;
+		font-weight:bold;
+		color:#333;
+		border-bottom:1px solid #ccc;
+
+		.ico {
+			display:inline-block;
+			vertical-align:middle;
+			margin-right:10px;
+		}
+
+	}
+}

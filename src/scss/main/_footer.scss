@@ -1,0 +1,32 @@
+footer {
+	.logo,
+	.l_footer {
+		float:left;
+	}
+	.l_footer {
+		padding-left:30px;
+	}
+
+	.f_menu {
+		@include util(36px, #cfcfcf, 10px);
+		font-size:14px;
+		font-weight:bold;
+	}
+	.f_info {
+		@include util(20px, #cfcfcf, 5px);
+		font-size:13px;
+		color:#cfcfcf;
+		> li:before {
+			content:'';
+		}
+		em {
+			font-weight:bold;
+			color:#f5c400;
+		}
+	}
+	.copy {
+		font-size:12px;
+		color:#949494;
+		line-height:20px;
+	}
+}

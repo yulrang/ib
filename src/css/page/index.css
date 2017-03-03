@@ -1,0 +1,26 @@
+.visual {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.visual .l_visual {
+  height: 600px;
+}
+
+.visual .l_visual > li {
+  display: inline-block;
+  width: 100%;
+}
+
+.visual .l_visual .visual1 {
+  height: 600px;
+  background: url(../../images/banner/banner1.png) center 0;
+}
+
+.visual .l_visual .visual2 {
+  height: 600px;
+  background: url(../../images/banner/banner2.png) center 0;
+}
+
+/*# sourceMappingURL=index.css.map */
