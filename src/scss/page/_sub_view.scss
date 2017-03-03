@@ -1,0 +1,42 @@
+.product_img{
+	float:left;
+}
+.product_info {
+	float:right;
+	width:360px;
+	padding:20px 0 20px 40px;
+
+	.l_info {
+		height:220px;
+	}
+	.l_btn_product {
+		display:block;
+		text-align:center;
+		padding-top:10px;
+	}
+	.btn_product {
+		width:100%;
+		line-height:60px;
+		background:#fff;
+		border:1px solid #ccc;
+		border-radius:5px;
+	}
+}
+.product_detail {
+	font-size:14px;
+	line-height:34px;
+	dt {
+		float:left;
+	}
+	dd {
+		overflow:hidden;
+		text-align:right;
+		input {
+			width:98px;
+			line-height:20px;
+			border:1px solid #ccc;
+			text-align:right;
+		}
+	}
+
+}

@@ -18,6 +18,10 @@ input {
   border: none;
 }
 
+input[type="submit"], input[type="button"] {
+  cursor: pointer;
+}
+
 button {
   overflow: visible;
   cursor: pointer;
@@ -610,6 +614,55 @@ footer .copy {
 .thumb_list .content_thumb .l_info .info dt, .thumb_list .content_thumb .l_info .info dd {
   display: inline-block;
   color: #666;
+}
+
+.product_img {
+  float: left;
+}
+
+.product_info {
+  float: right;
+  width: 360px;
+  padding: 20px 0 20px 40px;
+}
+
+.product_info .l_info {
+  height: 220px;
+}
+
+.product_info .l_btn_product {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.product_info .btn_product {
+  width: 100%;
+  line-height: 60px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product_detail {
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.product_detail dt {
+  float: left;
+}
+
+.product_detail dd {
+  overflow: hidden;
+  text-align: right;
+}
+
+.product_detail dd input {
+  width: 98px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */
