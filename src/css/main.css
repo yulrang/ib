@@ -154,7 +154,7 @@ footer {
   margin-right: 30px;
   padding: 6px 10px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: 0px -382px;
+  background-position: 0px -372px;
   width: 273px;
   height: 32px;
   width: 272px;
@@ -164,7 +164,7 @@ footer {
   position: absolute;
   right: 10px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: -547px -138px;
+  background-position: -527px -59px;
   width: 17px;
   height: 20px;
 }
@@ -227,7 +227,7 @@ footer {
 
 .hd .lnb .lnb_sub.sub1 {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -367px -69px;
+  background-position: -347px -59px;
   width: 123px;
   height: 49px;
   margin-left: -61.5px;
@@ -235,7 +235,7 @@ footer {
 
 .hd .lnb .lnb_sub.sub2 {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -367px 0px;
+  background-position: -347px 0px;
   width: 216px;
   height: 49px;
   margin-left: -108px;
@@ -272,7 +272,7 @@ footer {
 .widget {
   top: 380px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: -187px 0px;
+  background-position: -177px 0px;
   width: 160px;
   height: 160px;
 }
@@ -405,7 +405,7 @@ footer .copy {
 .visual .btn_prev {
   left: 20px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: -457px -138px;
+  background-position: -427px -118px;
   width: 70px;
   height: 70px;
 }
@@ -413,7 +413,7 @@ footer .copy {
 .visual .btn_next {
   right: 20px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: -367px -138px;
+  background-position: -347px -118px;
   width: 70px;
   height: 70px;
 }
@@ -446,7 +446,7 @@ footer .copy {
   float: left;
   margin-top: 14px;
   background-image: url(../../images/spr/sprite.png);
-  background-position: -510px -69px;
+  background-position: -480px -59px;
   width: 37px;
   height: 29px;
 }
@@ -474,28 +474,28 @@ footer .copy {
 
 .section_content.s1 .ico {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -367px -228px;
+  background-position: -507px -118px;
   width: 50px;
   height: 50px;
 }
 
 .section_content.s2 .ico {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -437px -228px;
+  background-position: -347px -198px;
   width: 50px;
   height: 50px;
 }
 
 .section_content.s3 .ico {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -507px -228px;
+  background-position: -407px -198px;
   width: 50px;
   height: 50px;
 }
 
 .section_content.s4 .ico {
   background-image: url(../../images/spr/sprite.png);
-  background-position: -367px -298px;
+  background-position: -467px -198px;
   width: 50px;
   height: 50px;
 }

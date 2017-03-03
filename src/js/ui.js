@@ -1,5 +1,5 @@
 $(function(){
-		$('.l_visual > li > a').fullScreen();
+	$('.l_visual > li > a').fullScreen();
 
 
 

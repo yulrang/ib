@@ -109,6 +109,9 @@
 			   width:  width,
 			   height: height
 		   });
+		   $(this.list_wrap).css({
+			   width:  width * objThis.list_num
+		   });
 		}
 
 		$(this.container).css({
@@ -123,8 +126,6 @@
 		}
 		else {
 			$(this.list_wrap).css({
-				width:  width * objThis.list_num,
-				height:  height,
 				marginLeft: - width
 			});
 		}
@@ -139,7 +140,7 @@
 	   }, 200, function () {
 		   $(objThis.list_wrap).children('li:last-child').prependTo(objThis.list_wrap);
 		   $(objThis.list_wrap).css({
-			   marginLeft: - objThis.objThis.moveAmount
+			   marginLeft: - objThis.moveAmount
 		   });
 	   });
 	   this.setPage('prev');
