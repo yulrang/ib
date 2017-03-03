@@ -70,10 +70,12 @@
 			text-align:center;
 			&.sub1 {
 				@include sprite($sub-navi);
+				height:29px;
 				margin-left:-($sub-navi-width / 2);
 			}
 			&.sub2 {
 				@include sprite($sub-navi2);
+				height:29px;
 				margin-left:-($sub-navi2-width / 2);
 			}
 			> li {
